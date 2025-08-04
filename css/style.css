@@ -178,3 +178,49 @@ body{
     background-color: #ebd3c7;
   }
   
+
+  #crochet-section {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .category-menu {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .category-menu button {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #f4e2d8;
+    color: #5a3e36;
+    text-decoration:none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .category-menu .active {
+    background-color: #ddd;
+    font-weight: bold;
+  }
+  
+  .item-grid {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+    max-width:600px;
+   
+  }
+  
+  .item-grid img {
+    width: 100%;
+    aspect-ratio:  1 / 1; /* keep images square */
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
