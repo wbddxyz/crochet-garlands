@@ -209,6 +209,14 @@ body{
     border-radius: 5px;
     font-weight: bold;
     border: none;
+    font-family: "Delius Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .category-menu button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0,0.15);
   }
   
   .category-menu .active {
